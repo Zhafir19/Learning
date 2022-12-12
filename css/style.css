@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body {
+    margin: 0;
+    padding: 24px;
+    min-height: calc(100vh - 48px);
+    text-align: center;
+    color: rgb(14, 143, 132);
+    /* background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); */
+    background-image: url(/img/pev.jpg);
+    background-size: 200px;
+    background-position: center;
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+h2 {
+    font-style: oblique;
+        }
+.foto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    transition: .3s;
+    cursor: pointer;
+}
+.foto:hover {
+    transform: scale(1.1) rotate(2deg);
+    filter: brightness(1.2) saturate(1.5);
+    box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+}
